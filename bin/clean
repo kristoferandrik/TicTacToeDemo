@@ -1,4 +1,6 @@
 #!/bin/bash
 
+./gradlew clean
+
 rm -r classes/*
 rm TicTacToe.jar

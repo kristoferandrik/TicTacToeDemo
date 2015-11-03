@@ -14,6 +14,7 @@ Discription:
 */
 
 package is.ru.TicTacToe;
+
 import is.ru.TicTacToe.TicTacToeMain;
 import java.util.Scanner;
 
@@ -30,8 +31,8 @@ public class TicTacToe {
             }
         }
 
-        winner = STATE.BLANK;
-    }
+    winner = STATE.BLANK;
+}
 
     // Checks if the object is active
     public boolean isActive(){
